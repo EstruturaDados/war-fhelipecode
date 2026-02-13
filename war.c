@@ -35,7 +35,7 @@ int main() {
 
         printf("\n------------------------------\n");
         printf("    Cadastre o Territorio %d\n", i + 1);
-        printf("------------------------------\n");
+        printf("-------------------------------\n");
 
         printf("Nome do Territorio : ");
         fgets(territorios[i].nome, sizeof(territorios[i].nome), stdin);
